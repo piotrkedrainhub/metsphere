@@ -1,25 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Helmet, useTranslation } from 'gatsby-plugin-react-i18next'
+import { useTranslation } from 'gatsby-plugin-react-i18next'
 import favicon from '../../images/favicon.png'
+import Metadata from '../../components/Metadata'
 
 const NotFoundPage = () => {
   const {t} = useTranslation()
 
   return (
     <main className="main-ctn" style={{padding: '96px'}}>
-      <Helmet
+      <Metadata
         title={t`notfound.title`}
-        meta={[
-          {
-            name: `description`,
-            content: t`notfound.title`,
-          },
-          {
-            property: `og:image`,
-            content: favicon
-          },
-        ]}
+        description={t`notfound.title`}
+        ogImage={favicon}
       />
       <h1 style={{marginBottom: '48px'}}>{t`notfound.title`}</h1>
       <Link to="/">{t`notfound.go_home`}</Link>.
