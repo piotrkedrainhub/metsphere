@@ -1,10 +1,12 @@
 $main_z_index: 1;
 $zero_z_index: 0;
-$menu_z_index: 10;
+$menu_z_index: 20;
 $below_menu_z_index: 5;
-$above_menu_z_index: 20;
+$above_menu_z_index: 50;
 
 $content_horizontal_margin: 1rem;
 $max_width: 1246px;
 $tablet_width: 976px;
 $mobile_width: 576px;
+
+$viewportWidth: calc(100vw - var(--scrollbarWidth))

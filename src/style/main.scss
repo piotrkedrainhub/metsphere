@@ -11,12 +11,19 @@ html, body {
 
 .main-ctn {
   position: relative;
+  width: $viewportWidth;
+  height: 100vh;
 
   h1,h2,h3,h4,h5,h6,p,a,button {
     color: $main_text_color;
     padding: 0;
     margin: 0;
     font-family: $main_font;
+  }
+
+  section {
+    margin: 0;
+    padding: 0;
   }
 
   .content-ctn {
