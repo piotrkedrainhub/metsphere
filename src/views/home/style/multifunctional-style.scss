@@ -1,0 +1,36 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.multifunctional-ctn {
+  padding-top: $section_top_margin;
+  background-color: $grey_dark;
+
+  h4 {
+    color: $grey_light;
+  }
+
+  h2,h3,p {
+    color: #ffffff;
+  }
+
+  .multi-inner-ctn {
+    display: flex;
+  }
+
+  .multi-slider-ctn {
+    flex: 6;
+  }
+
+  .multi-text-ctn {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    p {
+      margin-top: 2rem;
+    }
+  }
+}
+

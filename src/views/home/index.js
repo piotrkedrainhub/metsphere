@@ -6,6 +6,9 @@ import './style/style.scss'
 import EarthSection from './components/EarthSection'
 import '../../style/slick-carousel/slick-theme.scss'
 import '../../style/slick-carousel/slick.scss'
+import LandingSection from './components/LandingSection'
+import NewLifeSection from './components/NewLifeSection'
+import MultifunctionalSection from './components/MultifunctionalSection'
 
 
 const HomePage = () => {
@@ -24,23 +27,11 @@ const HomePage = () => {
       />
       <div className="main-ctn home-ctn">
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>METSPHERE - <br/> nowa jakość domu</h1>
-          </div>
-        </section>
+        <LandingSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Poznaj nowy sposób życia</h1>
-          </div>
-        </section>
+        <NewLifeSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Wielofunkcyjność</h1>
-          </div>
-        </section>
+        <MultifunctionalSection/>
 
         <EarthSection/>
 

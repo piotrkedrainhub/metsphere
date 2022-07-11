@@ -1,0 +1,70 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.earth-ctn {
+  position: relative;
+  width: $viewportWidth;
+
+  .earth-main-text-ctn {
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: $viewportWidth;
+    z-index: 16;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 3.96%, rgba(255, 255, 255, 0.8) 8.53%, rgba(255, 255, 255, 0.8) 12.76%, rgba(255, 255, 255, 0.8) 18.74%, rgba(255, 255, 255, 0.8) 26.82%, rgba(255, 255, 255, 0.413028) 39.96%, rgba(255, 255, 255, 0) 57.56%);
+
+    .earth-text-inner-ctn {
+      box-sizing: border-box;
+      padding-top: $section_top_margin;
+      display: flex;
+
+      > div {
+        flex: 1;
+      }
+
+
+      h2,p {
+        color: $dark_green;
+      }
+
+      h4 {
+        color: $green;
+      }
+    }
+
+  }
+
+  .earth-bg-ctn {
+    position: relative;
+    height: 100vh;
+    width: $viewportWidth;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 1s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .earth-bg-ctn1 {
+    background-image: url("../../../images/rzepichy_zielen.png");
+  }
+
+  .earth-bg-ctn2 {
+    background-image: url("../../../images/rzepichy_eko_transport.png");
+  }
+
+  .earth-bg-ctn3 {
+    background-image: url("../../../images/rzepichy_innowacyjny_dach.png");
+  }
+
+  .earth-bg-ctn4 {
+    background-image: url("../../../images/rzepichy_rekuperacja.png");
+  }
+
+  .earth-bg-ctn5 {
+    background-image: url("../../../images/rzepichy_bez_gazu.png");
+  }
+}

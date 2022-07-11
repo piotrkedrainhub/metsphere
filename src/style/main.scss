@@ -5,8 +5,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: $main_font;
-  background-color: $main_bg_color;
+  background-color: #ffffff;
 }
 
 .main-ctn {
@@ -15,10 +14,8 @@ html, body {
   height: 100vh;
 
   h1,h2,h3,h4,h5,h6,p,a,button {
-    color: $main_text_color;
     padding: 0;
     margin: 0;
-    font-family: $main_font;
   }
 
   section {
@@ -29,6 +26,53 @@ html, body {
   .content-ctn {
     max-width: $max_width;
     margin: 0 auto;
+  }
+
+  h1 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: $grey_dark;
+  }
+
+  h2 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  h4 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $grey_light
+  }
+
+  p {
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    color: $grey_dark;
+  }
+
+  button, a {
+    font-family: $poppins_font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey_dark;
   }
 
   @media (max-width: $max_width) {

@@ -1,0 +1,33 @@
+@import '../../../style/colors';
+
+.landing-ctn {
+
+  background-image: url("../../../images/rzepichy_3d.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .landing-text-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+    p {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .scroll-down-ctn {
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-left: 1rem;
+      color: $grey_dark
+    }
+  }
+}

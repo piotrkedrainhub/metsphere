@@ -5,8 +5,11 @@ $below_menu_z_index: 5;
 $above_menu_z_index: 50;
 
 $content_horizontal_margin: 1rem;
+$section_top_margin: 4rem;
+
 $max_width: 1246px;
 $tablet_width: 976px;
 $mobile_width: 576px;
 
-$viewportWidth: calc(100vw - var(--scrollbarWidth))
+$viewportWidth: calc(100vw - var(--scrollbarWidth) - 1);
+//$viewportWidth: 100vw;

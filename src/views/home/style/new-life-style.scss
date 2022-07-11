@@ -1,0 +1,23 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.new-life-ctn {
+  padding-top: $section_top_margin;
+
+  .new-life-text-ctn {
+    display: flex;
+
+    div {
+      flex: 1;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+
+      h2 {
+        padding-right: 2rem;
+        box-sizing: border-box;
+        color: $grey_dark
+      }
+    }
+  }
+}

@@ -3,15 +3,12 @@
 .home-ctn {
   width: $viewportWidth;
   height: 100vh;
-  scroll-snap-type: y mandatory;
+  //scroll-snap-type: y mandatory;
   //overflow-y: scroll;
 
   .section-ctn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
-    scroll-snap-align: start;
+    //scroll-snap-align: start;
   }
 }
 
