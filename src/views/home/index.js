@@ -4,12 +4,9 @@ import favicon from '../../images/favicon.png'
 import Metadata from '../../components/Metadata'
 import './style/style.scss'
 import EarthSection from './components/EarthSection'
-import '../../style/slick-carousel/slick-theme.scss'
-import '../../style/slick-carousel/slick.scss'
 import LandingSection from './components/LandingSection'
 import NewLifeSection from './components/NewLifeSection'
 import MultifunctionalSection from './components/MultifunctionalSection'
-
 
 const HomePage = () => {
 

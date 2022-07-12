@@ -4,6 +4,8 @@
 .multifunctional-ctn {
   padding-top: $section_top_margin;
   background-color: $grey_dark;
+  width: $viewportWidth;
+  height: unset;
 
   h4 {
     color: $grey_light;
@@ -18,19 +20,125 @@
   }
 
   .multi-slider-ctn {
-    flex: 6;
+    position: relative;
+    width: 50%;
+    margin: 6rem calc(10% - 45px) 6rem 45px;
+
+    .multi-slide {
+      box-sizing: border-box;
+      background: $grey_dark;
+      border: 4px solid $grey;
+      border-radius: 8px;
+      padding: 2rem;
+
+      h3 {
+        color: $grey_light;
+      }
+
+      p {
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+      }
+
+      .icon-ctn {
+        display: flex;
+      }
+
+      .facility-icon {
+        width: 60px;
+        height: 60px;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      .icon-text-ctn {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
   }
 
   .multi-text-ctn {
-    flex: 4;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
 
     p {
       margin-top: 2rem;
     }
   }
+}
+
+.slick-dots li {
+  width: 32px !important;
+  height: 8px !important;
+  margin: 0 2px !important;
+}
+
+.slick-dots li button {
+  opacity: 1 !important;
+  width: 32px !important;
+  height: 8px !important;
+  border-radius: 4px !important;
+  content: '' !important;
+}
+
+.slick-dots li button::before {
+  opacity: 1 !important;
+  width: 32px !important;
+  height: 8px !important;
+  background: $grey_light !important;
+  border-radius: 4px !important;
+  content: '' !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  background: $grey !important;
+}
+
+.custom-slider-arrow {
+  right: -45px !important;
+  width: 31px !important;
+  height: 31px !important;
+  background: $grey_light !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: $grey_dark !important;
+}
+
+.custom-slider-arrow:hover {
+  color: $grey_dark !important;
+}
+
+.custom-slider-arrow-right {
+  right: -45px !important;
+}
+
+.custom-slider-arrow-left {
+  left: -45px !important;
+}
+
+.slick-prev:before {
+  content: '' !important;
+}
+
+.slick-next:before {
+  content: '' !important;
+}
+
+.gm-fullscreen-control,
+.gmnoprint,
+.gm-style-cc {
+  display: none;
 }
 

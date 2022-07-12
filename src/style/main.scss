@@ -11,7 +11,6 @@ html, body {
 .main-ctn {
   position: relative;
   width: $viewportWidth;
-  height: 100vh;
 
   h1,h2,h3,h4,h5,h6,p,a,button {
     padding: 0;
@@ -44,6 +43,15 @@ html, body {
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
+  }
+
+  h3 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
   }
 
   h4 {
