@@ -1,0 +1,78 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.methouse-section {
+  background-color: $grey_light;
+
+  .methouse-ctn {
+    display: flex;
+    align-items: center;
+    padding-top: $section_top_margin;
+    padding-bottom: $section_top_margin;
+    box-sizing: border-box;
+    height: 100vh;
+
+    .methouse-text-ctn {
+      flex: 1;
+
+      h2, p, button {
+        color: $grey_dark;
+      }
+
+      p {
+        margin: 2rem 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 175%;
+      }
+
+      button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        gap: 12px;
+        color: $grey_dark;
+        border: none;
+        background-color: transparent;
+      }
+
+      button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+
+    .methouse-img-ctn {
+      flex: 2;
+      box-sizing: border-box;
+      padding-left: 8rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      height: 100%;
+
+      .methouse-img-ctn1 {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .methouse-img-ctn2 {
+        flex: 3;
+        display: flex;
+        align-items: center;
+      }
+
+      div {
+        border-radius: 8px;
+
+        img {
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}

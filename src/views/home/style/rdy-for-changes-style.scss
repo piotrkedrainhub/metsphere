@@ -1,0 +1,99 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.rdy-for-changes-section {
+  width: $viewportWidth;
+  position: relative;
+
+  .rdy-for-changes-ctn {
+    padding-top: $section_top_margin;
+    padding-bottom: $section_top_margin;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      color: $grey;
+      margin-bottom: 1rem;
+    }
+
+    h2, p, button, a {
+      margin-bottom: 1rem;
+      color: $grey_dark;
+    }
+
+    h2, p {
+      text-align: center;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 175%;
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+      gap: 12px;
+      border: none;
+      background-color: transparent;
+    }
+
+    button:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+
+  .meth-theme-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 30vw;
+  }
+
+  .meth-theme-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 30vw;
+  }
+
+  .meth-theme-3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 30vw;
+  }
+
+  .meth-theme-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 30vw;
+  }
+}
+
+.contact-ctn {
+  background-color: $grey;
+
+  h2,h4 {
+    color: $grey_light !important;
+  }
+
+  p {
+    color: white !important;
+    margin-top: 2rem !important;
+  }
+}

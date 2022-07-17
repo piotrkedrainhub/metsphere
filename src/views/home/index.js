@@ -7,6 +7,12 @@ import EarthSection from './components/EarthSection'
 import LandingSection from './components/LandingSection'
 import NewLifeSection from './components/NewLifeSection'
 import MultifunctionalSection from './components/MultifunctionalSection'
+import TechnologySection from './components/TechnologySection'
+import MethouseSection from './components/MethouseSection'
+import RdyForChangesSection from './components/RdyForChangesSection'
+import ContactSection from './components/ContactSection'
+import Footer from '../../components/Footer'
+import BuildingSection from './components/BuildingSection'
 
 const HomePage = () => {
 
@@ -32,35 +38,17 @@ const HomePage = () => {
 
         <EarthSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Technologia</h1>
-          </div>
-        </section>
+        <TechnologySection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Budowanie sfery</h1>
-          </div>
-        </section>
+        <BuildingSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>METHouse</h1>
-          </div>
-        </section>
+        <MethouseSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Jesteś gotowy na zmiany?</h1>
-          </div>
-        </section>
+        <RdyForChangesSection/>
 
-        <section className="section-ctn">
-          <div className="content-ctn">
-            <h1>Odkryj nowe możliwości <br/> życia smart.</h1>
-          </div>
-        </section>
+        <ContactSection/>
+
+        <Footer/>
 
       </div>
     </>

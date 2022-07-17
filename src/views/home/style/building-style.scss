@@ -1,0 +1,19 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.building-section {
+  position: relative;
+
+  .green-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-image: url("../../../images/building-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

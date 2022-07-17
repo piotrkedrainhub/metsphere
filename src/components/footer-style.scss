@@ -1,0 +1,19 @@
+@import "../style/colors";
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1.5rem 0;
+
+  p {
+    color: $grey_dark;
+  }
+
+  svg {
+    color: $grey_dark;
+    margin-left: 1.5rem;
+  }
+}

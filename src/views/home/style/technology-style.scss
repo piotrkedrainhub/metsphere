@@ -1,0 +1,64 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.technology-section-ctn {
+  background-color: $grey_dark;
+  width: $viewportWidth;
+  height: unset;
+
+  .technology-ctn {
+    padding-top: $section_top_margin;
+    padding-bottom: $section_top_margin;
+
+    .technology-text-ctn {
+      display: flex;
+      div {
+        flex: 1;
+
+        h2,h4,p {
+          color: $grey_light;
+        }
+
+        h2, h4 {
+          margin-right: 4rem;
+        }
+      }
+    }
+
+    .technology-tech-ctn {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      margin-top: 4rem;
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        flex: 1;
+      }
+
+      .tech-ctn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 64px 24px;
+        background: $grey_light;
+        box-shadow: 0 0 3px rgba(238, 244, 243, 0.8);
+        border-radius: 8px;
+        color: $grey_dark;
+        text-align: center;
+      }
+
+      .tech-ctn:nth-of-type(even) {
+        margin-top: 8rem;
+      }
+
+      .tech-ctn:nth-of-type(odd) {
+        margin-bottom: 8rem;
+      }
+    }
+  }
+}

@@ -2,7 +2,10 @@
 @import "../../../style/colors";
 
 .new-life-ctn {
-  padding-top: $section_top_margin;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .new-life-text-ctn {
     display: flex;
@@ -19,5 +22,60 @@
         color: $grey_dark
       }
     }
+  }
+
+  .new-life-icon-ctn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+
+    .new-life-icon {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-left: -20px;
+      color: $grey_dark !important;
+    }
+
+    .multi-icon {
+      background: linear-gradient(90deg, #32100C 0%, #4F2410 54.54%, #505A46 97.02%);
+    }
+
+    .earth-icon {
+      background: linear-gradient(270deg, #0D322E 0%, #1D5246 48.96%, #505A46 100%);
+    }
+
+    .tech-icon {
+      background: linear-gradient(270deg, #ADA6A8 6.63%, #75786D 42.29%, #505A46 64.7%, #103732 85.73%);
+    }
+
+    .sfera-icon {
+      background: linear-gradient(90deg, #ADA6A8 0%, #E7E5E4 100%);
+    }
+
+    .new-life-icon-inner-ctn {
+      width: 260px;
+      height: 260px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1rem 1rem;
+      box-sizing: border-box;
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+    }
+
   }
 }
