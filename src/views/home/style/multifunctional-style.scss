@@ -2,10 +2,10 @@
 @import "../../../style/colors";
 
 .multifunctional-ctn {
-  padding-top: $section_top_margin;
   background-color: $grey_dark;
   width: $viewportWidth;
-  height: unset;
+  min-height: unset !important;
+  padding: 6rem 0 !important;
 
   h4 {
     color: $grey_light;
@@ -22,7 +22,7 @@
   .multi-slider-ctn {
     position: relative;
     width: 50%;
-    margin: 6rem calc(10% - 45px) 6rem 45px;
+    margin: 0 calc(10% - 45px) 0 45px;
 
     .multi-slide {
       box-sizing: border-box;
@@ -69,9 +69,41 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 
     p {
       margin-top: 2rem;
+    }
+  }
+
+  @media (max-width: $tablet_width) {
+    min-height: unset !important;
+
+    .multi-inner-ctn {
+      flex-direction: column-reverse;
+
+      .multi-slider-ctn {
+        width: unset;
+        margin: 2rem 0 0;
+
+        .facility-icon {
+          width: 37px;
+          height: 37px;
+
+          img {
+            width: 37px;
+            height: 37px;
+          }
+        }
+
+        .mapCtn {
+          height: 300px !important;
+        }
+      }
+
+      .multi-text-ctn {
+        width: unset;
+      }
     }
   }
 }
@@ -140,5 +172,16 @@
 .gmnoprint,
 .gm-style-cc {
   display: none;
+}
+
+@media (max-width: $tablet_width) {
+  .custom-slider-arrow-right {
+    right: -10px !important;
+  }
+
+  .custom-slider-arrow-left {
+    left: -10px !important;
+    z-index: $below_menu_z_index;
+  }
 }
 

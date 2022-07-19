@@ -3,7 +3,10 @@ import '../style/rdy-for-changes-style.scss'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const RdyForChangesSection = () => (
-  <section className="section-ctn rdy-for-changes-section contact-ctn">
+  <section
+    id="contact"
+    className="section-ctn rdy-for-changes-section contact-ctn"
+  >
 
     <StaticImage
       src="../../../images/meth-theme-3.png"

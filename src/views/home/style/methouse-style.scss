@@ -57,6 +57,7 @@
         flex: 2;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 2rem;
       }
 
@@ -72,6 +73,36 @@
         img {
           border-radius: 8px;
         }
+      }
+    }
+  }
+
+  @media (max-width: $tablet_width) {
+    .methouse-ctn {
+      .methouse-img-ctn {
+        padding-left: 4rem;
+      }
+    }
+  }
+
+  @media (max-width: $mobile_width) {
+    overflow: hidden;
+    min-height: unset !important;
+
+    .methouse-ctn {
+      flex-direction: column;
+      align-items: flex-start;
+      height: unset;
+
+      .methouse-text-ctn {
+
+      }
+
+      .methouse-img-ctn {
+        margin-top: 3rem;
+        padding-left: 0;
+        margin-left: -1rem;
+        margin-right: -2rem;
       }
     }
   }

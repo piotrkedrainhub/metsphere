@@ -10,10 +10,82 @@
     right: 0;
     top: 0;
     bottom: 0;
+    z-index: 0;
 
     background-image: url("../../../images/building-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .sphere-main-text-ctn {
+    z-index: $below_menu_z_index;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-top: $section_top_margin;
+  }
+
+  .sphere-secondary-text-ctn {
+    z-index: $below_menu_z_index;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: $section_top_margin;
+
+    .inner-ctn {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  h2,h4 {
+    color: $grey_light;
+  }
+
+  p {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: $mobile_width) {
+
+    min-height: unset !important;
+
+    br {
+      display: none;
+    }
+
+    .sphere-main-text-ctn {
+      position: unset;
+    }
+
+    .sphere-main-text-ctn-outer {
+      background-color: $dark_green;
+      padding-bottom: 1rem;
+      margin-bottom: -1px;
+    }
+
+    .sphere-secondary-text-ctn {
+      position: unset;
+    }
+
+    .sphere-secondary-text-ctn-outer {
+      margin-top: -1px;
+      background-color: $dark_brown;
+      padding-top: 1rem;
+
+      .inner-ctn {
+        justify-content: flex-start;
+      }
+    }
+
+    .green-section {
+      position: unset;
+      height: 300px;
+      width: $viewportWidth;
+    }
   }
 }

@@ -60,7 +60,6 @@ const Slider = ({children, className, slidesToShow=1, slideToShowB2=1}) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          dots: false,
         }
       }
     ]

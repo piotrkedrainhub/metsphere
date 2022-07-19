@@ -83,6 +83,21 @@
     z-index: 0;
     width: 30vw;
   }
+
+  @media (max-width: $mobile_width) {
+    min-height: unset !important;
+
+    .rdy-for-changes-ctn {
+      height: 60vh;
+
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
+    }
+  }
 }
 
 .contact-ctn {

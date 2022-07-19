@@ -2,7 +2,6 @@
 @import "../../../style/colors";
 
 .new-life-ctn {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,59 +22,112 @@
       }
     }
   }
+}
 
-  .new-life-icon-ctn {
+.new-life-icon-ctn::-webkit-scrollbar {
+  height: 0;
+  display: none;
+}
+
+.new-life-icon-ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+  padding-left: 1rem;
+
+  width: $viewportWidth;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+
+  .new-life-icons-inner-ctn {
     display: flex;
     flex-direction: row;
+  }
+
+  .new-life-icon {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    position: relative;
+    margin-left: -20px;
+    color: $grey_dark !important;
+  }
 
-    .new-life-icon {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      margin-left: -20px;
-      color: $grey_dark !important;
+  .multi-icon {
+    background: linear-gradient(90deg, #32100C 0%, #4F2410 54.54%, #505A46 97.02%);
+  }
+
+  .earth-icon {
+    background: linear-gradient(270deg, #0D322E 0%, #1D5246 48.96%, #505A46 100%);
+  }
+
+  .tech-icon {
+    background: linear-gradient(270deg, #ADA6A8 6.63%, #75786D 42.29%, #505A46 64.7%, #103732 85.73%);
+  }
+
+  .sfera-icon {
+    background: linear-gradient(90deg, #ADA6A8 0%, #E7E5E4 100%);
+  }
+
+  .new-life-icon-inner-ctn {
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem 1rem;
+    box-sizing: border-box;
+
+    h3 {
+      margin-bottom: 1rem;
     }
+  }
+}
 
-    .multi-icon {
-      background: linear-gradient(90deg, #32100C 0%, #4F2410 54.54%, #505A46 97.02%);
+@media (max-width: 1200px) {
+  .new-life-icon-ctn {
+    justify-content: unset;
+    padding-left: calc(1rem + 20px);
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: $mobile_width) {
+  .new-life-ctn {
+    min-height: unset !important;
+    margin: $section_top_margin 0 !important;
+  }
+
+  .new-life-text-ctn {
+    flex-direction: column;
+
+    h2 {
+      padding-bottom: 1rem;
     }
+  }
 
-    .earth-icon {
-      background: linear-gradient(270deg, #0D322E 0%, #1D5246 48.96%, #505A46 100%);
-    }
-
-    .tech-icon {
-      background: linear-gradient(270deg, #ADA6A8 6.63%, #75786D 42.29%, #505A46 64.7%, #103732 85.73%);
-    }
-
-    .sfera-icon {
-      background: linear-gradient(90deg, #ADA6A8 0%, #E7E5E4 100%);
-    }
-
+  .new-life-icon-ctn {
     .new-life-icon-inner-ctn {
-      width: 260px;
-      height: 260px;
-      background-color: white;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 3rem 1rem 1rem;
-      box-sizing: border-box;
-
       h3 {
-        margin-bottom: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        //font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
       }
     }
-
   }
 }

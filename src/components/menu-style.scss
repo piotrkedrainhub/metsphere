@@ -1,0 +1,35 @@
+@import "../style/values";
+
+.menu-ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2rem;
+
+  .menu-link-ctn {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    button, a {
+      background-color: transparent;
+      border: none;
+      text-decoration: none;
+    }
+
+    button:hover, a:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: $mobile_width) {
+    .menu-link-ctn {
+      gap: 1rem;
+    }
+  }
+}

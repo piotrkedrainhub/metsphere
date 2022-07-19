@@ -21,6 +21,7 @@ const Map = ({cords}) => {
       mapContainerStyle={containerStyle}
       zoom={16}
       center={cords}
+      mapContainerClassName="mapCtn"
     >
     </GoogleMap>
   )
