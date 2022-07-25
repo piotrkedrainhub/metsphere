@@ -13,7 +13,7 @@ const Menu = () => (
     />
     <div className="menu-link-ctn">
       <Link to="/">O nas</Link>
-      <button>METHouse</button>
+      <Link to="/methouse">METHouse</Link>
       <button onClick={() => scrollTo('#contact')}>Kontakt</button>
     </div>
   </div>

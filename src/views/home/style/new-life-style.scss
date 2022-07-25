@@ -120,13 +120,28 @@
   }
 
   .new-life-icon-ctn {
+
+    .new-life-icon {
+      width: 260px;
+      height: 260px;
+      margin-left: -15px;
+    }
     .new-life-icon-inner-ctn {
+      width: 225px;
+      height: 225px;
+      padding: 3rem 1rem 1rem;
+
       h3 {
         font-style: normal;
         font-weight: 600;
-        //font-size: 12px;
+        font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.05em;
+      }
+
+      img {
+        width: 110px;
+        height: 110px;
       }
     }
   }

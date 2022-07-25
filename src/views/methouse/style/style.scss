@@ -1,0 +1,42 @@
+@import "../../../style/values";
+
+.methouse-ctn {
+  width: $viewportWidth;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+
+  .section-ctn {
+    height: 100%;
+    width: $viewportWidth;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    padding-top: 100px;
+  }
+
+  .sticyk-ctn {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+  }
+
+  .methouse-slides-ctn {
+    position: relative;
+
+    .bob {
+      position: sticky;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 1vh;
+
+      div {
+        height: 100px;
+        background-color: red;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -6,73 +6,86 @@
   position: relative;
   width: $viewportWidth;
 
-  .earth-main-text-ctn {
+  .earth-main-text-outer-ctn {
+    position: sticky;
     left: 0;
     right: 0;
     top: 0;
     height: 100vh;
-    width: $viewportWidth;
-    z-index: 16;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 3.96%, rgba(255, 255, 255, 0.8) 8.53%, rgba(255, 255, 255, 0.8) 12.76%, rgba(255, 255, 255, 0.8) 18.74%, rgba(255, 255, 255, 0.8) 26.82%, rgba(255, 255, 255, 0.413028) 39.96%, rgba(255, 255, 255, 0) 57.56%);
+    z-index: 200;
 
-    .earth-text-inner-ctn {
-      box-sizing: border-box;
-      padding-top: $section_top_margin;
-      display: flex;
+    .earth-main-text-ctn {
+      height: 100vh;
+      width: $viewportWidth;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 3.96%, rgba(255, 255, 255, 0.8) 8.53%, rgba(255, 255, 255, 0.8) 12.76%, rgba(255, 255, 255, 0.8) 18.74%, rgba(255, 255, 255, 0.8) 26.82%, rgba(255, 255, 255, 0.413028) 39.96%, rgba(255, 255, 255, 0) 57.56%);
 
-      > div {
-        flex: 1;
+      .earth-ctn-text-helper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
       }
 
+      .earth-text-inner-ctn {
+        box-sizing: border-box;
+        padding-top: $section_top_margin;
+        display: flex;
 
-      h2,p {
-        color: $dark_green;
+        > div {
+          flex: 1;
+        }
+
+        h2,p {
+          color: $dark_green;
+        }
+
+        h4 {
+          color: $green;
+        }
       }
 
-      h4 {
-        color: $green;
+      .earth-selector-ctn {
+        left: 0;
+        right: 0;
+        bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.3rem;
+        margin-bottom: 1rem;
+
+        .earth-selector {
+          width: 32px;
+          height: 8px;
+          background: $grey_light;
+          border-radius: 4px;
+        }
+
+        .earth-selector:hover {
+          cursor: pointer;
+          background: $dark_green !important;
+        }
       }
+
     }
-
-    .earth-selector-ctn {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 1rem;
-      display: flex;
-      justify-content: center;
-      gap: 0.3rem;
-
-      .earth-selector {
-        width: 32px;
-        height: 8px;
-        background: $grey_light;
-        border-radius: 4px;
-      }
-
-      .earth-selector:hover {
-        cursor: pointer;
-        background: $dark_green !important;
-      }
-    }
-
   }
 
   .earth-bg-ctn {
-    position: relative;
-    height: 100vh;
-    width: $viewportWidth;
-    top: 0;
+    position: sticky;
     left: 0;
     right: 0;
-    transition: opacity 1s ease-in-out;
+    top: 0;
+    height: 100vh;
+    width: $viewportWidth;
+    transition: opacity .3s ease-in-out;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
 
   .earth-bg-ctn1 {
     background-image: url("../../../images/rzepichy_zielen.png");
+    margin-top: -100vh;
   }
 
   .earth-bg-ctn2 {

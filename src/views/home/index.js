@@ -3,7 +3,6 @@ import '../../style/main.scss'
 import favicon from '../../images/favicon.png'
 import Metadata from '../../components/Metadata'
 import './style/style.scss'
-import EarthSection from './components/EarthSection'
 import LandingSection from './components/LandingSection'
 import NewLifeSection from './components/NewLifeSection'
 import MultifunctionalSection from './components/MultifunctionalSection'
@@ -13,6 +12,7 @@ import RdyForChangesSection from './components/RdyForChangesSection'
 import ContactSection from './components/ContactSection'
 import Footer from '../../components/Footer'
 import BuildingSection from './components/BuildingSection'
+import EarthSectionv2 from './components/EarthSectionv2'
 
 const HomePage = () => {
 
@@ -36,7 +36,7 @@ const HomePage = () => {
 
         <MultifunctionalSection/>
 
-        <EarthSection/>
+        <EarthSectionv2/>
 
         <TechnologySection/>
 

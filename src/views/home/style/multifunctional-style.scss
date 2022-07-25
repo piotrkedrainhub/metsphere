@@ -4,8 +4,9 @@
 .multifunctional-ctn {
   background-color: $grey_dark;
   width: $viewportWidth;
-  min-height: unset !important;
   padding: 6rem 0 !important;
+  min-height: unset !important;
+  box-sizing: border-box;
 
   h4 {
     color: $grey_light;
@@ -15,13 +16,17 @@
     color: #ffffff;
   }
 
+  .multi-helper {
+    width: $viewportWidth;
+  }
+
   .multi-inner-ctn {
     display: flex;
   }
 
   .multi-slider-ctn {
     position: relative;
-    width: 50%;
+    width: 45%;
     margin: 0 calc(10% - 45px) 0 45px;
 
     .multi-slide {
@@ -38,7 +43,7 @@
       p {
         color: white;
         margin-top: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
       }
 
       .icon-ctn {

@@ -32,8 +32,8 @@ module.exports = {
         name: 'gatsbytemplate',
         short_name: 'gatsbytemplate',
         start_url: '/',
-        background_color: '#07090D',
-        theme_color: '#137CDE',
+        background_color: '#ffffff',
+        theme_color: '#0D322E',
         display: 'standalone',
       }
     },
