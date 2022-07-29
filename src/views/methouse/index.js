@@ -2,6 +2,7 @@ import React from 'react'
 import Metadata from '../../components/Metadata'
 import favicon from '../../images/favicon.png'
 import './style/style.scss'
+import LandingSection from './components/LandingSection'
 
 const METhousePage = () => {
   return (
@@ -13,9 +14,7 @@ const METhousePage = () => {
       />
       <div className="main-ctn methouse-ctn">
 
-        <section className="section-ctn">
-          <h1>METhouse</h1>
-        </section>
+        <LandingSection/>
 
         <div className="methouse-slides-ctn">
           <div className="bob"><div/></div>

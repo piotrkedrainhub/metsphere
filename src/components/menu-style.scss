@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   top: 2rem;
+  z-index: $menu_z_index;
 
   .menu-link-ctn {
     display: flex;

@@ -1,0 +1,83 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+@import "../../../style/fonts";
+
+.methouse-landing-ctn {
+  width: $viewportWidth;
+  height: 100vh;
+  background-color: #EEF4F3;
+  position: relative;
+  padding-top: 0 !important;
+
+  .methouse-img-ctn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 55vw;
+
+    > div {
+      width: 100% !important;
+      height: 100% !important;
+
+      img {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+
+  .methouse-text-ctn {
+    padding-top: 100px;
+    width: 40%;
+    box-sizing: border-box;
+
+    h1, h3, p, a, svg {
+      color: $dark_green;
+      text-align: left;
+    }
+
+    h1 {
+      margin-top: 5rem;
+    }
+
+    h3 {
+      margin-top: 1rem;
+    }
+  }
+
+  .scroll-down-ctn {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    svg {
+      margin-left: 1rem;
+    }
+  }
+
+  @media(max-width: $mobile_width) {
+    .methouse-img-ctn {
+      position: unset;
+      right: 0;
+      top: unset;
+      bottom: 0;
+      width: $viewportWidth;
+      height: 55vh;
+    }
+
+    .methouse-text-ctn {
+      width: unset;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-top: 0;
+
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+}
