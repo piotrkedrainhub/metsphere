@@ -10,6 +10,7 @@ const Menu = () => (
       src="../images/logo.png"
       alt="METSHPHERE logo icon"
       placeholder="none"
+      loading="eager"
     />
     <div className="menu-link-ctn">
       <Link to="/">O nas</Link>

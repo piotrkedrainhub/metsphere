@@ -1,0 +1,92 @@
+@import "../../../style/values";
+@import "../../../style/colors";
+
+.methouse-ctn {
+  width: $viewportWidth;
+  height: 100vh;
+
+  .methouse-presentation-ctn {
+    position: relative;
+
+    .section-ctn {
+      height: 100vh;
+      width: $viewportWidth;
+    }
+
+    .first-sticky-ctn {
+      margin-top: -100vh;
+    }
+
+    .sticyk-ctn {
+      position: sticky;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color: #0D322E;
+
+      .methouse-slide-text-ctn {
+        padding-top: 100px;
+        height: 90vh;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+
+        .text-ctn {
+          width: 40%;
+          box-sizing: border-box;
+
+          h2,h4,p {
+            color: white;
+          }
+
+          p {
+            margin-top: 2rem;
+          }
+        }
+      }
+
+      .methouse-img-ctn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 55vw;
+
+        > div {
+          width: 100% !important;
+          height: 100% !important;
+
+          img {
+            width: 100% !important;
+            height: 100% !important;
+          }
+        }
+      }
+
+      @media(max-width: $mobile_width) {
+        .methouse-slide-text-ctn {
+          height: 45vh;
+
+          .text-ctn {
+            width: unset;
+
+            p {
+              margin-top: 1rem;
+            }
+          }
+        }
+
+        .methouse-img-ctn {
+          position: unset;
+          right: 0;
+          top: unset;
+          bottom: 0;
+          width: $viewportWidth;
+          height: 55vh;
+        }
+      }
+    }
+  }
+}
