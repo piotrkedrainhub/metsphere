@@ -11,6 +11,16 @@
   top: 2rem;
   z-index: $menu_z_index;
 
+  .logo {
+    width: 60px;
+    height: 60px;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
   .menu-link-ctn {
     display: flex;
     flex-direction: row;

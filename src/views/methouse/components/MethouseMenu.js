@@ -11,7 +11,10 @@ const MethouseMenu = () => {
   React.useEffect(() => {
     const earthDiv = document.getElementById('earth')
     const techDiv = document.getElementById('tech')
-    window.addEventListener('scroll', () => {
+
+    function handleScroll() {
+      if (multiBtn.current == null)
+        return
       if (techDiv.getBoundingClientRect().top <= 0) {
         multiBtn.current.className = ""
         earthBtn.current.className = ""
@@ -25,7 +28,10 @@ const MethouseMenu = () => {
         earthBtn.current.className = ""
         techBtn.current.className = ""
       }
-    })
+    }
+
+    window.addEventListener('scroll', () => handleScroll())
+    return window.removeEventListener('scroll', () => handleScroll())
   }, [])
 
 

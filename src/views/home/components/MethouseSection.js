@@ -2,6 +2,7 @@ import React from 'react'
 import '../style/methouse-style.scss'
 import { TbArrowRight } from 'react-icons/tb'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby-plugin-react-i18next'
 
 const MethouseSection = () => (
   <section className="section-ctn methouse-section">
@@ -10,10 +11,10 @@ const MethouseSection = () => (
         <div className="methouse-text-ctn">
           <h2>METHouse</h2>
           <p>Smart. Eco. Wygoda. <br/> Wszystko czego potrzebujesz.</p>
-          <button>
+          <Link to="/methouse">
             Dowiedz się więcej
             <TbArrowRight size={24}/>
-          </button>
+          </Link>
         </div>
         <div className="methouse-img-ctn">
           <div className="methouse-img-ctn1">

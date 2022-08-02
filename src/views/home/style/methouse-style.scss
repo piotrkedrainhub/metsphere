@@ -15,7 +15,7 @@
     .methouse-text-ctn {
       flex: 1;
 
-      h2, p, button {
+      h2, p, button, a {
         color: $grey_dark;
       }
 
@@ -27,10 +27,11 @@
         line-height: 175%;
       }
 
-      button {
+      button,a {
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-decoration: none;
         padding: 0;
         gap: 12px;
         color: $grey_dark;
@@ -38,7 +39,7 @@
         background-color: transparent;
       }
 
-      button:hover {
+      button:hover, a:hover {
         cursor: pointer;
         opacity: 0.8;
       }
@@ -94,9 +95,6 @@
       align-items: flex-start;
       height: unset;
 
-      .methouse-text-ctn {
-
-      }
 
       .methouse-img-ctn {
         margin-top: 3rem;

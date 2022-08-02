@@ -173,10 +173,8 @@
   content: '' !important;
 }
 
-.gm-fullscreen-control,
-.gmnoprint,
-.gm-style-cc {
-  display: none;
+.place-card {
+  display: none !important;
 }
 
 @media (max-width: $tablet_width) {
