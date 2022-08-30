@@ -84,9 +84,9 @@ const EarthSectionv2 = () => {
       <div  className="earth-ctn" >
 
         <div className="earth-main-text-outer-ctn">
-          <div className="earth-main-text-ctn">
+          <div className="earth-main-text-ctn" style={{background: 'none'}}>
             <div className="content-ctn earth-ctn-text-helper">
-              <div className="earth-text-inner-ctn">
+              <div style={{opacity: '0'}} className="earth-text-inner-ctn">
                 <div>
                   <h4>E JAK EARTH</h4>
                   <h2>Ziemia</h2>
@@ -107,6 +107,20 @@ const EarthSectionv2 = () => {
         </div>
 
         <div id="earth1"  ref={firstDivRef} className="section-ctn earth-bg-ctn earth-bg-ctn1">
+          <div className="earth-main-text-ctn">
+            <div className="content-ctn earth-ctn-text-helper">
+              <div className="earth-text-inner-ctn">
+                <div>
+                  <h4>E JAK EARTH</h4>
+                  <h2>Ziemia</h2>
+                </div>
+                <div>
+                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METHouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast jej niszczyć.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="earth-text-ctn1">
             <StaticImage
               src="../../../images/earth-pointers/earth-pointer-1.png"
@@ -128,6 +142,20 @@ const EarthSectionv2 = () => {
         </div>
 
         <div id="earth2" ref={secondDivRef} className="section-ctn earth-bg-ctn earth-bg-ctn2">
+          <div className="earth-main-text-ctn">
+            <div className="content-ctn earth-ctn-text-helper">
+              <div className="earth-text-inner-ctn">
+                <div>
+                  <h4>E JAK EARTH</h4>
+                  <h2>Ziemia</h2>
+                </div>
+                <div>
+                  <p>W METSPHERE wierzymy w zielone technologie, dzięki którym jesteśmy w stanie robić więcej dla środowiska. METHouse to dom gotowy na przyszłość, wyposażony w ładowarki dla samochodów elektrycznych.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="earth-text-ctn2">
             <StaticImage
               src="../../../images/earth-pointers/earth-pointer-2.png"
@@ -143,6 +171,20 @@ const EarthSectionv2 = () => {
         </div>
 
         <div id="earth3" ref={thirdDivRef} className="section-ctn earth-bg-ctn earth-bg-ctn3">
+          <div className="earth-main-text-ctn">
+            <div className="content-ctn earth-ctn-text-helper">
+              <div className="earth-text-inner-ctn">
+                <div>
+                  <h4>E JAK EARTH</h4>
+                  <h2>Ziemia</h2>
+                </div>
+                <div>
+                  <p>Każdy METHouse stworzony jest z myślą o Ziemi, technologii i jego Mieszkańcach. Budujemy domy gotowe do montażu paneli fotowoltaicznych. Z METSPHERE nie musisz przejmować się skuwaniem dachu.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="earth-text-ctn3">
             <StaticImage
               src="../../../images/earth-pointers/earth-pointer-3.png"
@@ -164,6 +206,20 @@ const EarthSectionv2 = () => {
         </div>
 
         <div id="earth4" ref={fourthDivRef} className="section-ctn earth-bg-ctn earth-bg-ctn4">
+          <div className="earth-main-text-ctn">
+            <div className="content-ctn earth-ctn-text-helper">
+              <div className="earth-text-inner-ctn">
+                <div>
+                  <h4>E JAK EARTH</h4>
+                  <h2>Ziemia</h2>
+                </div>
+                <div>
+                  <p>W ramach METSPHERE łączymy to, co wygodne z tym, co praktyczne i przyjazne środowisku. Zastosowanie rekuperacji ciepła pozwala mieszkańcom METHouse cieszyć się odpowiedną temperaturą powietrza bez nadmiernego zużywania energii.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="earth-text-ctn4">
             <StaticImage
               src="../../../images/earth-pointers/earth-pointer-4.png"
@@ -185,6 +241,20 @@ const EarthSectionv2 = () => {
         </div>
 
         <div id="earth5" ref={lastDivRef} className="section-ctn earth-bg-ctn earth-bg-ctn5">
+          <div className="earth-main-text-ctn">
+            <div className="content-ctn earth-ctn-text-helper">
+              <div className="earth-text-inner-ctn">
+                <div>
+                  <h4>E JAK EARTH</h4>
+                  <h2>Ziemia</h2>
+                </div>
+                <div>
+                  <p>Dom bez gazu ziemnego to rozwiązanie bezpieczne, ekologiczne i ekonomiczne. Korzystanie z najnowszych rozwiązań w zakresie pomp ciepła zapewnia mieszkańcom długoterminowe oszczędności i eliminuje zużycie paliw kopalnych.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="earth-text-ctn5">
             <StaticImage
               src="../../../images/earth-pointers/earth-pointer-5.png"
