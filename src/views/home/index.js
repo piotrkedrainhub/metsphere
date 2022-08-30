@@ -13,6 +13,7 @@ import ContactSection from './components/ContactSection'
 import Footer from '../../components/Footer'
 import BuildingSection from './components/BuildingSection'
 import EarthSectionv2 from './components/EarthSectionv2'
+import CookieBar from '../../components/CookieBar'
 
 const HomePage = () => {
 
@@ -29,6 +30,8 @@ const HomePage = () => {
         ogImage={favicon}
       />
       <div className="main-ctn home-ctn">
+
+        <CookieBar/>
 
         <LandingSection/>
 

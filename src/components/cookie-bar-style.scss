@@ -1,0 +1,26 @@
+@import "../style/colors";
+
+.cookies-bar-ctn {
+  position: fixed;
+  bottom: 2rem;
+  z-index: 10000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background: $grey_light;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #2F2C2D70;
+  border-radius: 8px;
+  color: $grey_dark;
+  text-align: center;
+
+  button {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+}

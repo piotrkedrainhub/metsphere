@@ -8,12 +8,39 @@
   background-color: white;
   padding: 1.5rem 0;
 
-  p {
+  p, a {
     color: $grey_dark;
   }
 
   svg {
     color: $grey_dark;
     margin-left: 1.5rem;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .footer-text-ctn {
+    display: flex;
+  }
+
+  .spacer {
+    margin: 0 1rem;
+  }
+
+  @media (max-width: 800px) {
+    .footer-text-ctn {
+      flex-direction: column;
+    }
+
+    .spacer {
+      display: none;
+    }
+
+    a {
+      font-size: 14px;
+    }
   }
 }

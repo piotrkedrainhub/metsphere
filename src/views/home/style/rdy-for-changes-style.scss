@@ -25,7 +25,7 @@
       color: $grey_dark;
     }
 
-    h2, p {
+    h2, p, a {
       text-align: center;
     }
 
@@ -34,6 +34,17 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 175%;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 175%;
+    }
+
+    a:hover {
+      opacity: 0.8;
     }
 
     button {
@@ -96,6 +107,13 @@
         font-size: 14px;
         line-height: 150%;
       }
+
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      }
     }
   }
 }
@@ -110,5 +128,11 @@
   p {
     color: white !important;
     margin-top: 2rem !important;
+  }
+
+  a {
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
   }
 }
