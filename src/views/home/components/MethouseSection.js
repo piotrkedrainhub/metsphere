@@ -10,7 +10,7 @@ const MethouseSection = () => (
       <div className="methouse-ctn">
         <div className="methouse-text-ctn">
           <h2>METHouse</h2>
-          <p>Smart. Eco. Wygoda. <br/> Wszystko czego potrzebujesz.</p>
+          <p>Wielofunkcyjność. <br/> Ekologia. <br/> Technologia. <br/> Wszystko, czego potrzebujesz.</p>
           <Link to="/methouse">
             Dowiedz się więcej
             <TbArrowRight size={24}/>

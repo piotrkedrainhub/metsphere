@@ -10,13 +10,13 @@ const TechnologySection = () => (
           <h2>Technologia</h2>
         </div>
         <div>
-          <p>Atrakcyjna nieruchomość na Woli Justowskiej w Krakowie, położona w malowniczej okolicy, w sąsiedztwie Lasu Wolskiego. Piękna, spokojna i zielona dzielnica willowa miasta Krakowa,odizolowana od zgiełku miasta. Prestiżowa lokalizacja.</p>
+          <p>Budujemy smart domy wykorzystujące najnowsze technologie zapewniając mieszkańcom METHouse oszczędności, komfort  i wygodę. Wspólnie budujemy społeczność ludzi nieobojętnych, ceniących odpowiedzialność ekologiczną.</p>
         </div>
       </div>
       <div className="technology-tech-ctn">
         <div>
-          <Tech title="Smart ready" text="Bądź gotowy do zarządzania swoim domem jednym kliknięciem."/>
-          <Tech title="Rekuperacja i pompa ciepła" text="Korzystaj z wentylacji mechanicznej i ciesz się czystym powietrzem."/>
+          <Tech title="Smart ready" text="Zarządzaj swoim domem jednym kliknięciem, także z poziomu smartfona."/>
+          <Tech title="Rekuperacja i pompa ciepła" text="Ciesz się czystym, świeżym powietrzem i oszczędzaj."/>
         </div>
         <div>
           <Tech title="Soon" text="Aplikacja do zarządzania domem"/>

@@ -51,7 +51,7 @@ const MethouseMenu = () => {
           </button>
           <button ref={techBtn} onClick={() => scrollTo('#tech')}>
             <h3>
-              Techbologia
+              Technologia
             </h3>
           </button>
         </div>

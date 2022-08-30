@@ -8,9 +8,9 @@ const LandingSection = () => (
     <Menu/>
     <div className="content-ctn landing-text-ctn">
       <h1>METSPHERE - <br/> nowa jakość domu</h1>
-      <p>Poznaj swój nowy dom. Bardziej eko. Bardziej smart. Bardziej dostosowany <br/> do Twoich potrzeb. Bo u nas liczy się człowiek.</p>
+      <p>Budujemy METHouse, smart domy na osiedlach przyjaznych dla środowiska <br/> w spokojnej, dobrze skomunikowanej okolicy.</p>
       <div className="scroll-down-ctn">
-        <a>Scroll to explore</a>
+        <a>Dowiedz się więcej</a>
         <CgChevronDoubleDown size={28}/>
       </div>
     </div>

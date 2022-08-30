@@ -10,9 +10,9 @@ const LandingSection = () => (
     <div className="content-ctn">
       <div className="methouse-text-ctn">
         <h1>METhouse</h1>
-        <h3>Dom Twoich marzeń - wygodny, najnowocześniejszy, przystodowany do Twoich potrzeb. W jednym słowie ideał. </h3>
+        <h3>Nowoczesny, wygodny dom dostosowany do Twoich potrzeb. Sprawdź, co oferuje nieruchomość Twoich marzeń!  </h3>
         <div className="scroll-down-ctn">
-          <a>Scroll to explore</a>
+          <a>Dowiedz się więcej</a>
           <CgChevronDoubleDown size={28}/>
         </div>
       </div>

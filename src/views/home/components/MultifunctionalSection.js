@@ -14,7 +14,7 @@ const MultifunctionalSection = () => (
           <div className="multi-text-ctn">
             <h4>M JAK MIXED-USED</h4>
             <h2>Wielofunkcyjność</h2>
-            <p>Atrakcyjna nieruchomość na Woli Justowskiej w Krakowie, położona w malowniczej okolicy, w sąsiedztwie Lasu Wolskiego. Piękna, spokojna i zielona dzielnica willowa miasta Krakowa,odizolowana od zgiełku miasta. Prestiżowa lokalizacja.</p>
+            <p>Nowoczesne osiedle musi oferować więcej. Tworząc METSPHERE nie zapomnieliśmy o niczym, co ważne dla współczesnej rodziny. Budowane przez nas osiedle domów jednorodzinnych w Krakowie to osiedle przyjazne dzieciom, z bliskim dostępem do ośrodków edukacji i miejsc wypoczynku oraz dobrze skomunikowane z centrum biznesowym. Zamieszkaj w mieście, ale z dala od zgiełku, hałasu i pośpiechu.</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ const FACILITIES = [
   {
     distance: "7 km",
     title: "Szkoła podstawowa",
-    description: "Większość naszych osiedli budujemy tak, aby szkoła podstawowa była w zasięgu maksymalnie 7 km.",
+    description: "Szkoła blisko domu to bezpieczeństwo dzieci oraz wygoda dla rodziców, dlatego nasze osiedla powstają niedaleko szkoły podstawowej.",
     cords: {
       lat: 50.0358607,
       lng: 19.8890909
@@ -57,7 +57,7 @@ const FACILITIES = [
   {
     distance: "7 km",
     title: "Międzynarodowy Port Lotniczy Balice",
-    description: "Większość naszych osiedli budujemy tak, aby szkoła podstawowa była w zasięgu maksymalnie 7 km.",
+    description: "Powstające osiedle na Woli Justowskiej w Krakowie znajduje się w bliskim sąsiedztwie lotniska, ułatwiając planowanie międzynarodowych podróży.",
     cords: {
       lat: 50.0773057,
       lng: 19.7864722
@@ -88,7 +88,7 @@ const FACILITIES = [
   {
     distance: "7 km",
     title: "Zalew Kryspinów",
-    description: "Większość naszych osiedli budujemy tak, aby szkoła podstawowa była w zasięgu maksymalnie 7 km.",
+    description: "Wypoczynek jest ważny. Powstająca w Krakowie inwestycja METSPHERE to osiedle blisko wody, umożliwiające częsty relaks nad Zalewem Kryspinów.",
     cords: {
       lat: 50.0504925,
       lng: 19.7972143
@@ -119,7 +119,7 @@ const FACILITIES = [
   {
     distance: "7 km",
     title: "Rynek starego Miasta",
-    description: "Większość naszych osiedli budujemy tak, aby szkoła podstawowa była w zasięgu maksymalnie 7 km.",
+    description: "Bliskość Starego Miasta to wygodne i bezpieczne powroty do domu. METHouse zapewnia Ci dostęp do miasta przy zachowaniu przedmiejskiej ciszy i spokoju.",
     cords: {
       lat: 50.0612236,
       lng: 19.9365583

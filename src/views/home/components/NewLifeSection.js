@@ -7,10 +7,10 @@ const NewLifeSection = () => (
     <div className="content-ctn">
       <div className="new-life-text-ctn">
         <div>
-          <h2>Poznaj nowy sposób życia</h2>
+          <h2>Lepsze mieszkanie to lepszy świat</h2>
         </div>
         <div>
-          <p>Dołącz do METSPHERE i buduj z nami lepszy świat. Tworzymy coś więcej niż budynki. Nadajemy im duszę. Przeciwstawiamy się bezmyślnemu zalewaniu miast betonem. Zbudujemy społeczność, której każdy jest ważną częścią. Na rynku nieruchomości w centrum stawiamy człowieka.</p>
+          <p>Sprzeciwiamy się betonozie. METHouse to ekologiczne, inteligentne domy, dzięki którym możesz korzystać z osiągnięć najnowszych technologii nie pozostając obojętnym wobec środowiska. Dołącz do METSPHERE i buduj z nami lepszy świat. Stwórz z nami społeczność, która zapoczątkuje styl odpowiedzialnego i nowoczesnego mieszkania. Poznaj nasze wartości.</p>
         </div>
       </div>
     </div>

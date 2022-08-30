@@ -92,7 +92,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>Atrakcyjna nieruchomość na Woli Justowskiej w Krakowie, położona w malowniczej okolicy, w sąsiedztwie Lasu Wolskiego. Piękna, spokojna i zielona dzielnica willowa miasta Krakowa,odizolowana od zgiełku miasta. Prestiżowa lokalizacja.</p>
+                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METHouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast jej niszczyć.</p>
                 </div>
               </div>
               <div className="earth-selector-ctn">
@@ -137,7 +137,7 @@ const EarthSectionv2 = () => {
             />
             <div className="earth-inner-text-ctn">
               <h5>Eko transport</h5>
-              <p>Ładuj swoje elektryczne auto pod domem</p>
+              <p>Ładuj samochód elektryczny pod domem</p>
             </div>
           </div>
         </div>

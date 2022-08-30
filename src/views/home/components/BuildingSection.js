@@ -11,7 +11,7 @@ const BuildingSection = () => (
           <div className="content-ctn">
             <h4>SPEHERE</h4>
             <h2>Budowanie sfery</h2>
-            <p>Atrakcyjna nieruchomość na Woli <br/> Justowskiej w Krakowie, położona <br/> w malowniczej okolicy, <br/> w sąsiedztwie Lasu Wolskiego. </p>
+            <p>METSPHERE to nowe podejście do <br/> mieszkania. Budując <br/> zaawansowane technologicznie <br/> domy, jesteśmy świadomi ich <br/> współistnienia z nabliższym <br/> otoczeniem. Jesteśmy <br/> odpowiedzialni wobec środowiska. </p>
           </div>
         </div>
       </div>
@@ -23,7 +23,7 @@ const BuildingSection = () => (
       <div className="content-ctn">
         <div className="sphere-secondary-text-ctn">
           <div className="content-ctn inner-ctn">
-            <p>Atrakcyjna nieruchomość na Woli <br/> Justowskiej w Krakowie, położona <br/> w malowniczej okolicy, <br/> w sąsiedztwie Lasu Wolskiego. </p>
+            <p>Dołączając do naszej społeczności <br/> stajesz się częścią zmiany, budujesz <br/> razem z nami nowoczesny, <br/> odpowiedzialny i ekologiczny styl <br/> mieszkania w Polsce.</p>
           </div>
         </div>
       </div>
