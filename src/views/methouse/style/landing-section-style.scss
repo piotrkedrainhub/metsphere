@@ -80,4 +80,14 @@
       }
     }
   }
+
+  @media(max-width: 376px) {
+    .methouse-img-ctn {
+      height: 50vh;
+    }
+
+    .methouse-text-ctn {
+      height: 50vh;
+    }
+  }
 }

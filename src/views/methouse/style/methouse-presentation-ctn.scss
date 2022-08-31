@@ -87,6 +87,25 @@
           height: 55vh;
         }
       }
+
+      @media(max-width: 376px) {
+        .methouse-slide-text-ctn {
+          height: 53vh;
+          padding-top: 60px;
+
+          .text-ctn {
+            p {
+              margin-top: 1rem;
+              font-size: 13px;
+            }
+          }
+        }
+
+        .methouse-img-ctn {
+          height: 47vh;
+        }
+      }
+
     }
   }
 }
