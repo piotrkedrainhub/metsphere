@@ -19,6 +19,14 @@ const EarthSectionv2 = () => {
       const fourthEarthCtnTop = fourthDivRef.current?.getBoundingClientRect()?.top
       const lastEarthCtnTop = lastDivRef.current?.getBoundingClientRect()?.top
 
+      if (document.documentElement.scrollTop >= 100) {
+        firstDivRef.current.style.opacity = 1
+        secondDivRef.current.style.opacity = 0
+        thirdDivRef.current.style.opacity = 0
+        fourthDivRef.current.style.opacity = 0
+        lastDivRef.current.style.opacity = 0
+      }
+
       if (lastEarthCtnTop-1 <= 0) {
         firstDivRef.current.style.opacity = 0
         secondDivRef.current.style.opacity = 0
