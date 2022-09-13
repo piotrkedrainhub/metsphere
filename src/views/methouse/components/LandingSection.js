@@ -5,7 +5,7 @@ import { CgChevronDoubleDown } from 'react-icons/cg'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const LandingSection = () => (
-  <div className="section-ctn methouse-landing-ctn">
+  <div className="section-ctn methouse-landing-ctn" id="begin">
     <Menu/>
     <div className="content-ctn">
       <div className="methouse-text-ctn">

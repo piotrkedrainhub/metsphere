@@ -6,6 +6,7 @@ import MethousePresentation from './components/MethousePresentation'
 import RdyForChangesSection from '../home/components/RdyForChangesSection'
 import ContactSection from '../home/components/ContactSection'
 import Footer from '../../components/Footer'
+import ScrollFloatBtn from './components/scroll-float-btn'
 
 const METhousePage = () => {
   return (
@@ -16,6 +17,8 @@ const METhousePage = () => {
         ogImage={favicon}
       />
       <div className="main-ctn methouse-ctn">
+
+        <ScrollFloatBtn/>
 
         <LandingSection/>
 

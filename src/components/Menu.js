@@ -6,16 +6,18 @@ import scrollTo from 'gatsby-plugin-smoothscroll'
 
 const Menu = () => (
   <div className="content-ctn menu-ctn">
-    <StaticImage
-      src="../images/logo.png"
-      alt="METSHPHERE logo icon"
-      placeholder="tracedSVG"
-      loading="eager"
-      className="logo"
-    />
+    <Link to="/">
+      <StaticImage
+        src="../images/logo.png"
+        alt="METSHPHERE logo icon"
+        placeholder="tracedSVG"
+        loading="eager"
+        className="logo"
+      />
+    </Link>
     <div className="menu-link-ctn">
-      <Link to="/">O nas</Link>
       <Link to="/methouse">METHouse</Link>
+      <a target="_blank" href="https://www.otodom.pl/">Oferta</a>
       <button onClick={() => scrollTo('#contact')}>Kontakt</button>
     </div>
   </div>

@@ -14,6 +14,7 @@ import Footer from '../../components/Footer'
 import BuildingSection from './components/BuildingSection'
 import EarthSectionv2 from './components/EarthSectionv2'
 import CookieBar from '../../components/CookieBar'
+import StickyMenu from '../../components/sticky-menu'
 
 const HomePage = () => {
 
@@ -30,6 +31,7 @@ const HomePage = () => {
         ogImage={favicon}
       />
       <div className="main-ctn home-ctn">
+        <StickyMenu/>
 
         <CookieBar/>
 
