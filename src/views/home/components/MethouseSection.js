@@ -20,19 +20,19 @@ const MethouseSection = () => (
           <div className="methouse-img-ctn1">
             <StaticImage
               src="../../../images/methouse-placeholder-1.png"
-              alt="METHouse placeholder 1"
+              alt="Ogródek przy nowoczesnym domu jednorodzinnym"
               placeholder="none"
             />
             <StaticImage
               src="../../../images/methouse-placeholder-2.png"
-              alt="METHouse placeholder 1"
+              alt="Elegancki ogród przed domem"
               placeholder="none"
             />
           </div>
           <div className="methouse-img-ctn2">
             <StaticImage
               src="../../../images/methouse-placeholder-3.png"
-              alt="METHouse placeholder 1"
+              alt="Nowoczesny dom z dużymi oknami"
               placeholder="none"
             />
           </div>

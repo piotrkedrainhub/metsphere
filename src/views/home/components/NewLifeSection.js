@@ -21,7 +21,7 @@ const NewLifeSection = () => (
           <h3>Wielofunkcyjność</h3>
           <StaticImage
             src="../../../images/multifunctional.svg"
-            alt="Multifunctional icon"
+            alt="Wielofunkcyjność"
             placeholder="none"
           />
         </div>
@@ -31,7 +31,7 @@ const NewLifeSection = () => (
           <h3>Ziemia</h3>
           <StaticImage
             src="../../../images/tree-two.svg"
-            alt="Tree icon"
+            alt="Ziemia"
             placeholder="none"
           />
         </div>
@@ -41,7 +41,7 @@ const NewLifeSection = () => (
           <h3>Technologia</h3>
           <StaticImage
             src="../../../images/smart-house-phone-sync.svg"
-            alt="Smart house phone sync icon"
+            alt="Technologia"
             placeholder="none"
           />
         </div>
@@ -51,7 +51,7 @@ const NewLifeSection = () => (
             <h3>Sfera</h3>
             <StaticImage
               src="../../../images/family-home-1.svg"
-              alt="Family home icon"
+              alt="Sfera"
               placeholder="none"
             />
           </div>

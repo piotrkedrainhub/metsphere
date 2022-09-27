@@ -10,7 +10,7 @@ const TechnologySection = () => (
           <h2>Technologia</h2>
         </div>
         <div>
-          <p>Budujemy smart domy wykorzystujące najnowsze technologie zapewniając mieszkańcom METHouse oszczędności, komfort  i wygodę. Wspólnie budujemy społeczność ludzi nieobojętnych, ceniących odpowiedzialność ekologiczną.</p>
+          <p>Budujemy smart domy wykorzystujące najnowsze technologie zapewniając mieszkańcom METHouse oszczędności, komfort i wygodę. Wspólnie budujemy społeczność ludzi nieobojętnych, ceniących odpowiedzialność ekologiczną.</p>
         </div>
       </div>
       <div className="technology-tech-ctn">

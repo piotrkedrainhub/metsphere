@@ -34,7 +34,7 @@ const FACILITIES = [
     icon: (
       <StaticImage
         src="../../../images/school-building.svg"
-        alt="Ikona szkoły"
+        alt="Dom jednorodzinny blisko szkoły"
         placeholder="none"
         className="facility-icon"
       />
@@ -65,7 +65,7 @@ const FACILITIES = [
     icon: (
       <StaticImage
         src="../../../images/plane-trip-international.svg"
-        alt="Ikona lotniska - Balice"
+        alt="Dom jednorodzinny blisko lotniska"
         placeholder="none"
         className="facility-icon"
       />
@@ -96,7 +96,7 @@ const FACILITIES = [
     icon: (
       <StaticImage
         src="../../../images/kryspinow.svg"
-        alt="Ikona Zalew Kryspinów"
+        alt="Dom jednorodzinny blisko wody"
         placeholder="none"
         className="facility-icon"
       />
@@ -127,7 +127,7 @@ const FACILITIES = [
     icon: (
       <StaticImage
         src="../../../images/rynek.svg"
-        alt="Ikona Rynku Starego Miasta"
+        alt="Dom jednorodzinny blisko centrum Krakowa"
         placeholder="none"
         className="facility-icon"
       />

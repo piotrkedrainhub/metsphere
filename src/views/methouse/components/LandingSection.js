@@ -12,7 +12,7 @@ const LandingSection = () => (
         <h1>METhouse</h1>
         <h3>Nowoczesny, wygodny dom dostosowany do Twoich potrzeb. Sprawdź, co oferuje nieruchomość Twoich marzeń!  </h3>
         <div className="scroll-down-ctn">
-          <a>Dowiedz się więcej</a>
+          <a>Przewiń, aby zobaczyć więcej</a>
           <CgChevronDoubleDown size={28}/>
         </div>
       </div>
@@ -20,7 +20,7 @@ const LandingSection = () => (
     <div className="methouse-img-ctn">
       <StaticImage
         src="../../../images/methouse/rzepichy-landing.png"
-        alt="Rzepichy dom landing"
+        alt="Dom blisko natury"
         placeholder="none"
         loading="eager"
       />

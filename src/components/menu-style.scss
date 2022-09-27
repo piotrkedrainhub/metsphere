@@ -46,12 +46,11 @@
   }
 }
 
-
 .sticky-menu-ctn {
   position: fixed;
   background-color: $grey_light;
   width: 100%;
-  z-index: $above_menu_z_index;
+  z-index: 201;
   transition: all 0.5s ease-in-out;
 
   .menu-ctn {

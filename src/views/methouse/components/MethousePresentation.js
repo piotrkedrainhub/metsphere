@@ -14,7 +14,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide1.png"
-        alt="Blisko natury i wygodnie obrazek"
+        alt="Dom z zielonym tarasem"
         placeholder="none"
         loading="eager"
       />
@@ -29,7 +29,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide2.png"
-        alt="Dom zeroemisyjny? Jesteśmy na tak! obrazek"
+        alt="Przestronny, nowoczesny salon"
         placeholder="none"
         loading="eager"
       />
@@ -44,7 +44,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide3.png"
-        alt="Zielono mi wszędzie, nawet na dachu obrazek"
+        alt="Zielone osiedle domów jednorodzinnych"
         placeholder="none"
         loading="eager"
       />
@@ -59,7 +59,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide4.png"
-        alt="Dbamy o każdy szczegół obrazek"
+        alt="Ekologiczny dom z dachem porośniętym mchem"
         placeholder="none"
         loading="eager"
       />
@@ -74,7 +74,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide5.png"
-        alt="Materiały najwyższej jakości obrazek"
+        alt="Garaż w domu jednorodzinnym"
         placeholder="none"
         loading="eager"
       />
@@ -89,7 +89,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide6.png"
-        alt="Rekuperacja i pompa ciepła obrazek"
+        alt="Dom jednorodzinny z garażem i tarasem na piętrze"
         placeholder="none"
         loading="eager"
       />
@@ -104,7 +104,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide7.png"
-        alt="Dom przygotowany pod bycie smart obrazek"
+        alt="Domy bliźniaki z garażem i piętrowym tarasem"
         placeholder="none"
         loading="eager"
       />
@@ -119,7 +119,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide8.png"
-        alt="Produkuj prąd taniej i przyjaźniej obrazek"
+        alt="Nowoczesny dom jednorodzinny"
         placeholder="none"
         loading="eager"
       />
@@ -134,7 +134,7 @@ const SLIDES = [
     img: (
       <StaticImage
         src="../../../images/methouse/slide9.png"
-        alt="Ładuj swoje auto pod domem obrazek"
+        alt="Parkowanie samochodu w garażu domu jednorodzinnego"
         placeholder="none"
         loading="eager"
       />

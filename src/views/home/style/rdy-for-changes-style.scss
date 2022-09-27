@@ -63,6 +63,10 @@
     }
   }
 
+  img {
+    object-fit: contain !important;
+  }
+
   .meth-theme-1 {
     position: absolute;
     right: 0;

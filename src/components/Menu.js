@@ -9,7 +9,7 @@ const Menu = () => (
     <Link to="/">
       <StaticImage
         src="../images/logo.png"
-        alt="METSHPHERE logo icon"
+        alt="Logo METSPHERE"
         placeholder="tracedSVG"
         loading="eager"
         className="logo"

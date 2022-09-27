@@ -10,14 +10,14 @@ const RdyForChangesSection = () => (
 
     <StaticImage
       src="../../../images/meth-theme-3.png"
-      alt="METHouse theme 3"
+      alt="Element loga METSPHERE"
       placeholder="none"
       className="meth-theme-3"
     />
 
     <StaticImage
       src="../../../images/meth-theme-4.png"
-      alt="METHouse theme 4"
+      alt="Element loga METSPHERE"
       placeholder="none"
       className="meth-theme-4"
     />

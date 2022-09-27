@@ -10,7 +10,7 @@ const LandingSection = () => (
       <h1>METSPHERE - <br/> nowa jakość domu</h1>
       <p>Budujemy METHouse, smart domy na osiedlach przyjaznych dla środowiska <br/> w spokojnej, dobrze skomunikowanej okolicy.</p>
       <div className="scroll-down-ctn">
-        <a>Dowiedz się więcej</a>
+        <a>Przewiń, aby<br/>zobaczyć więcej</a>
         <CgChevronDoubleDown size={28}/>
       </div>
     </div>

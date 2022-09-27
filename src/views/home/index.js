@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../../style/main.scss'
-import favicon from '../../images/favicon.png'
+import SEO_IMAGE from '../../images/seo_metsphere.png'
 import Metadata from '../../components/Metadata'
 import './style/style.scss'
 import LandingSection from './components/LandingSection'
@@ -26,9 +26,9 @@ const HomePage = () => {
   return (
     <>
       <Metadata
-        title="METSPHERE"
-        description="nowa jakość domu"
-        ogImage={favicon}
+        title="Nowoczesne osiedla domów jednorodzinnych | METSPHERE"
+        description="METSPHERE to deweloper budujący zgodnie z naturą i najnowszymi trendami technologicznymi. Inwestycje METSHPERE to m. in. zielone osiedle domów jednorodzinnych w Krakowie"
+        ogImage={SEO_IMAGE}
       />
       <div className="main-ctn home-ctn">
         <StickyMenu/>

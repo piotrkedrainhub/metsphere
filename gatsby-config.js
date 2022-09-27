@@ -10,15 +10,15 @@ const gatsbyRequiredRules = path.join(
 
 module.exports = {
   siteMetadata: {
-    title: `gatsbytemplate`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `METHSPHERE`,
+    siteUrl: `https://www.metsphere.pl/`
   },
   plugins: [
     "gatsby-plugin-sass",
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        "trackingId": "todo"
+        "trackingId": "G-11CPNV0HRZ"
       }
     },
     `gatsby-plugin-smoothscroll`,
@@ -29,8 +29,8 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         icon: "src/images/favicon.png",
-        name: 'gatsbytemplate',
-        short_name: 'gatsbytemplate',
+        name: 'METHSPHERE',
+        short_name: 'METHSPHERE',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#0D322E',
