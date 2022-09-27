@@ -16,10 +16,13 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        "trackingId": "G-11CPNV0HRZ"
-      }
+        trackingIds: ["G-11CPNV0HRZ"]
+      },
+      pluginConfig: {
+        head: true,
+      },
     },
     `gatsby-plugin-smoothscroll`,
     "gatsby-plugin-image",
