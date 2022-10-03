@@ -12,7 +12,7 @@ const EarthSectionv2 = () => {
   const lastDivRef = useRef()
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    const handleScroll = () => {
       const firstEarthCtnTop = firstDivRef.current?.getBoundingClientRect()?.top
       const secondEarthCtnTop = secondDivRef.current?.getBoundingClientRect()?.top
       const thirdEarthCtnTop = thirdDivRef.current?.getBoundingClientRect()?.top
@@ -83,8 +83,10 @@ const EarthSectionv2 = () => {
         document.getElementsByClassName("earth-selector4")[0].style.background = '#D3D2D1'
         document.getElementsByClassName("earth-selector5")[0].style.background = '#D3D2D1'
       }
+    }
 
-    })
+    window.addEventListener('scroll', () => handleScroll())
+    return window.removeEventListener('scroll', () => handleScroll())
   }, [])
 
   return (
@@ -100,7 +102,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METHouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast jej niszczyć.</p>
+                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METhouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast ją niszczy.</p>
                 </div>
               </div>
               <div className="earth-selector-ctn">
@@ -123,7 +125,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METHouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast jej niszczyć.</p>
+                  <p>Koniec z szarym, szybko nagrzewającym się betonem. METhouse to domy stanowiące część krajobrazu, które wzbogacają okolicę, zamiast ją niszczy.</p>
                 </div>
               </div>
             </div>
@@ -158,7 +160,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>W METSPHERE wierzymy w zielone technologie, dzięki którym jesteśmy w stanie robić więcej dla środowiska. METHouse to dom gotowy na przyszłość, wyposażony w ładowarki dla samochodów elektrycznych.</p>
+                  <p>W METSPHERE wierzymy w zielone technologie, dzięki którym jesteśmy w stanie robić więcej dla środowiska. METhouse to dom gotowy na przyszłość, wyposażony w ładowarki dla samochodów elektrycznych.</p>
                 </div>
               </div>
             </div>
@@ -187,7 +189,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>Każdy METHouse stworzony jest z myślą o Ziemi, technologii i jego Mieszkańcach. Budujemy domy gotowe do montażu paneli fotowoltaicznych. Z METSPHERE nie musisz przejmować się skuwaniem dachu.</p>
+                  <p>Każdy METhouse stworzony jest z myślą o Ziemi, technologii i jego Mieszkańcach. Budujemy domy gotowe do montażu paneli fotowoltaicznych. METSPHERE przystosowuje swoje inwestycje do innowacyjnych rozwiązań.</p>
                 </div>
               </div>
             </div>
@@ -222,7 +224,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>W ramach METSPHERE łączymy to, co wygodne z tym, co praktyczne i przyjazne środowisku. Zastosowanie rekuperacji ciepła pozwala mieszkańcom METHouse cieszyć się odpowiedną temperaturą powietrza bez nadmiernego zużywania energii.</p>
+                  <p>W ramach METSPHERE łączymy wygodę z tym co praktyczne i przyjazne środowisku. Zastosowanie rekuperacji ciepła pozwala mieszkańcom METhouse cieszyć się odpowiedną temperaturą powietrza bez nadmiernego zużywania energii.</p>
                 </div>
               </div>
             </div>
@@ -257,7 +259,7 @@ const EarthSectionv2 = () => {
                   <h2>Ziemia</h2>
                 </div>
                 <div>
-                  <p>Dom bez gazu ziemnego to rozwiązanie bezpieczne, ekologiczne i ekonomiczne. Korzystanie z najnowszych rozwiązań w zakresie pomp ciepła zapewnia mieszkańcom długoterminowe oszczędności i eliminuje zużycie paliw kopalnych.</p>
+                  <p>Dom bez gazu ziemnego to rozwiązanie bezpieczne, ekologiczne i ekonomiczne. Korzystanie z najnowszych rozwiązań w zakresie ogrzewania np. pomp ciepła zapewnia mieszkańcom długoterminowe oszczędności i eliminuje zużycie paliw kopalnianych.</p>
                 </div>
               </div>
             </div>
@@ -282,6 +284,8 @@ const EarthSectionv2 = () => {
             </div>
           </div>
         </div>
+
+        <div className="section-ctn earth-bg-ctn" style={{backgroundColor: "transparent"}}/>
 
       </div>
     </section>

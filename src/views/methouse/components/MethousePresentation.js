@@ -9,7 +9,7 @@ const SLIDES = [
     isFirst: true,
     tag: '#1 przemyślana architektura',
     title: 'Dom blisko natury',
-    text: 'METHouse to dom z ogrodem, na który dostaniesz się za pomocą przestrzennego tarasu. Wiemy jak ważne jest odpowiednie oświetlenie wnętrza, dlatego w METSPHERE budujemy domy z dużymi oknami, które nie tylko zapraszają do środka promienie społeczne, pozwalają również podziwiać cudowne okoliczności przyrody. Domy wyposażone są też w zabudowane śmietniki, aby utylizacja odpadów była tak wygodna, jak dyskretna.',
+    text: 'METhouse to dom otoczony zielenią. Przestrzenny ogród z tarasem i część balkonowa umożliwią Ci komfortowy wypoczynek na świeżym powietrzu. Wiemy jak ważne jest odpowiednie oświetlenie, dlatego w METSPHERE standardem są duże okna, umożliwiające promieniom słonecznym dotarcie do każdego zakamarka domu.',
     bgColor: BROWN,
     img: (
       <StaticImage
@@ -24,7 +24,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#2 udogodnienia',
     title: 'Dom zeroemisyjny',
-    text: 'METHouse wyposażony jest w ogrzewanie podłogowe. Zastosowanie nowoczesnych pomp ciepła i systemów rekuperacji pozwala zrezygnować z gazu ziemnego i sprawia, że nasze domy są przystosowane do bezemisyjności już od momentu zakupu.',
+    text: 'METhouse wyposażony jest w ogrzewanie podłogowe. Zastosowanie nowoczesnych pomp ciepła i systemów rekuperacji pozwala zrezygnować z gazu ziemnego i sprawia, że nasze domy są przystosowane do bezemisyjności już od momentu zakupu.',
     bgColor: BROWN,
     img: (
       <StaticImage
@@ -39,7 +39,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#1 zielona działka i dom',
     title: 'Zielone osiedle',
-    text: 'Bliskie sąsiedztwo zieleni wspomaga relaks, ale ułatwia też skupienie. Osiedla METSPHERE są pokryte zielenią, znajdziesz ją nawet na dachu! Nie godzimy się na betonozę, wierzymy że mieszkanie w centrum miasta może być również mieszkaniem w centrum zieleni.',
+    text: 'Bliskie sąsiedztwo zieleni wspomaga relaks, ale ułatwia też skupienie. Osiedla METSPEHRE są pokryte zielenią, którą znajdziesz nawet na dachu! Nie godzimy się na betonozę. Wierzymy że mieszkanie w centrum miasta może być również mieszkaniem w centrum zieleni.',
     bgColor: GREEN,
     img: (
       <StaticImage
@@ -54,7 +54,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#2 Eko dach',
     title: 'Dbałość o szczegół',
-    text: 'Jesteśmy uparci i gotowi zerwać ze schematami. Dlatego zdecydowaliśmy się umieścić zieleń nawet na dachu. W METHouse zaimplementowaliśmy innowacyjne rozwiązanie skośnego, zielonego dachu ekstensywnego.',
+    text: 'Jesteśmy uparci i gotowi zerwać ze schematami. W METhouse zaimplementowaliśmy innowacyjne rozwiązanie skośnego, zielonego dachu ekstensywnego. Korzystamy z łatwej w utrzymaniu i obsłudze technologi.',
     bgColor: GREEN,
     img: (
       <StaticImage
@@ -69,7 +69,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#3 Naturalne materiały',
     title: 'Materiały najwyższej jakości',
-    text: 'Zastosowanie naturalnych materiałów pozwala nam budować w zgodzie z naturą. Elewacja z naturalnych materiałów – drewna i paneli kwarcowych, dojścia do budynków z ekologicznej geokraty. METHouse będzie Ci służył przez wiele lat, nie szkodząc przy tym naszej planecie.',
+    text: 'Zastosowanie naturalnych materiałów pozwala nam budować w zgodzie z naturą. Elewacja z naturalnych materiałów – drewna i paneli kwarcowych, dojścia do budynków z ekologicznej geokraty. METhouse będzie Ci służył przez wiele lat, nie szkodząc przy tym naszej planecie.',
     bgColor: GREEN,
     img: (
       <StaticImage
@@ -84,7 +84,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#4 eko urządzenia',
     title: 'Rekuperacja i pompa ciepła',
-    text: 'Zastosowanie w METHouse najnowszych technologii grzewczych pozwala zrezygnować z potrzeby korzystania z paliw kopalnych. Budujemy domy zeroemisyjne, gotowe na przyszłość i dostępne już dziś.',
+    text: 'Zastosowanie w METhouse najnowszych technologii grzewczych pozwala zrezygnować z potrzeby korzystania z paliw kopalnych. Budujemy domy zeroemisyjne, gotowe na przyszłość i dostępne już dziś.',
     bgColor: GREEN,
     img: (
       <StaticImage
@@ -114,7 +114,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#2 Fotowoltaika',
     title: 'Tania, przyjazna energia',
-    text: 'Jak oszczędzać energię? METSPHERE buduje domy z ogrzewaniem podłogowym, wykorzystujące pompy ciepła i zeroemisyjne. Energię elektryczną pozyskasz z paneli fotowoltaicznych, które łatwo zamontujesz na przystosowanym do tego dachu. Nowe technologie pozwalają Ci pozostać w zgodzie ze środowiskiem naturalnym, oszczędzając do tego na rachunkach.',
+    text: 'Jak oszczędzać energię? METSPHERE buduje zeroemisyjne domy z ogrzewaniem podłogowym. Energię elektryczną pozyskasz z paneli fotowoltaicznych, które łatwo zamontujesz na przystosowanym do tego dachu. Nowe technologie pozwalają Ci pozostać w zgodzie z naturalnym środowiskiem i zaoszczędzić do tego na rachunkach.',
     bgColor: GREY,
     img: (
       <StaticImage
@@ -129,7 +129,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#3 Ładowarka do aut elektrycznych',
     title: 'Ładowanie samochodu',
-    text: 'Nie szukaj ładowarek w mieście. METHouse to dom zaawansowany technologicznie, w standardzie zapewniający mieszkańcom dostęp do ładowarek do samochodów z napędem elektrycznym. Oszczędzasz paliwo, oszczędzaj też czas!',
+    text: 'Nie szukaj ładowarek w mieście. METhouse to dom zaawansowany technologicznie, w standardzie zapewniający mieszkańcom dostęp do ładowarek dla samochodów elektrycznych. Oszczędzasz paliwo, oszczędzaj też czas!',
     bgColor: GREY,
     img: (
       <StaticImage
@@ -143,7 +143,7 @@ const SLIDES = [
 ]
 
 const MethousePresentation = () => (
-  <div className="methouse-presentation-ctn">
+  <div className="methouse-presentation-ctn" id="presentation">
 
     <div id="multi"/>
     <MethouseMenu/>

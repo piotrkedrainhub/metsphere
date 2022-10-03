@@ -51,6 +51,9 @@
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 
     svg {
       margin-left: 1rem;

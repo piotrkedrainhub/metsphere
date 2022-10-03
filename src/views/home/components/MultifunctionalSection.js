@@ -14,7 +14,7 @@ const MultifunctionalSection = () => (
           <div className="multi-text-ctn">
             <h4>M JAK MIXED-USED</h4>
             <h2>Wielofunkcyjność</h2>
-            <p>Nowoczesne osiedle musi oferować więcej. Tworząc METSPHERE nie zapomnieliśmy o niczym, co ważne dla współczesnej rodziny. Budowane przez nas osiedle domów jednorodzinnych w Krakowie to osiedle przyjazne dzieciom, z bliskim dostępem do ośrodków edukacji i miejsc wypoczynku oraz dobrze skomunikowane z centrum biznesowym. Zamieszkaj w mieście, ale z dala od zgiełku, hałasu i pośpiechu.</p>
+            <p>Nowoczesne osiedle musi oferować więcej. Tworząc METSPHERE, nie zapomnieliśmy o niczym, co ważne dla współczesnej rodziny. Budowane przez nas domy jednorodzinne w Krakowie to przestrzeń przyjazna dzieciom, z bliskim dostępem do ośrodków edukacji i miejsc wypoczynku oraz dobra komunikacja z centrum biznesowym. Zamieszkaj w mieście, ale z dala od zgiełku, hałasu i pośpiechu.</p>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ const FACILITIES = [
   {
     distance: "7 km",
     title: "Rynek starego Miasta",
-    description: "Bliskość Starego Miasta to wygodne i bezpieczne powroty do domu. METHouse zapewnia Ci dostęp do miasta przy zachowaniu przedmiejskiej ciszy i spokoju.",
+    description: "Bliskość Starego Miasta to wygodne i bezpieczne powroty do domu. METhouse zapewnia Ci dostęp do miasta przy zachowaniu przedmiejskiej ciszy i spokoju.",
     cords: {
       lat: 50.0612236,
       lng: 19.9365583

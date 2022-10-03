@@ -8,6 +8,28 @@
   top: 0;
   z-index: 200;
   height: 100vh;
+  display: flex;
+  align-items: center;
+
+  a {
+    width: 40px;
+    height: 40px;
+    margin-right: 2rem;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  > div::-webkit-scrollbar {
+    display: none;
+  }
 
   > div {
     position: absolute;
@@ -18,9 +40,16 @@
     background-color: white;
     display: flex;
     align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
     >div {
       width: 100%;
+      display: flex;
+      align-items: center;
     }
 
     button {
@@ -29,6 +58,7 @@
       cursor: pointer;
       margin-right: 4rem;
       color: $grey_light;
+      white-space: nowrap;
 
       :before {
         display: inline-block;
@@ -39,6 +69,7 @@
         margin-right: 15px;
         background-color: $grey_light;
         margin-bottom: 1px;
+        white-space: nowrap;
       }
 
       :hover {

@@ -12,8 +12,8 @@ const METhousePage = () => {
   return (
     <>
       <Metadata
-        title="Nowoczesny dom jednorodzinny | METHouse"
-        description="Zamieszkaj w mieście, ale blisko natury. Wielofunkcyjne, przyjazne środowisku i dobrze skomunikowane osiedla domów jednorodzinnych METHouse."
+        title="Nowoczesny dom jednorodzinny | METhouse"
+        description="Zamieszkaj w mieście, ale blisko natury. Wielofunkcyjne, przyjazne środowisku i dobrze skomunikowane osiedla domów jednorodzinnych METhouse."
         ogImage={SEO_IMAGE}
       />
       <div className="main-ctn methouse-ctn">

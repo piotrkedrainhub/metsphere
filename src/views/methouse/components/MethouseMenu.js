@@ -1,6 +1,8 @@
 import React, { useRef } from 'react'
 import '../style/methouse-menu-style.scss'
 import scrollTo from 'gatsby-plugin-smoothscroll'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby-plugin-react-i18next'
 
 const MethouseMenu = () => {
 
@@ -39,6 +41,15 @@ const MethouseMenu = () => {
     <div className="methouse-menu-ctn">
       <div>
         <div className="content-ctn">
+          <Link to="/">
+            <StaticImage
+              src="../images/logo.png"
+              alt="Logo METSPHERE"
+              placeholder="tracedSVG"
+              loading="eager"
+              className="logo"
+            />
+          </Link>
           <button ref={multiBtn} onClick={() => scrollTo('#multi')}>
             <h3>
               Wielofunkcyjność

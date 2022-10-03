@@ -11,7 +11,7 @@ const BuildingSection = () => (
           <div className="content-ctn">
             <h4>SPEHERE</h4>
             <h2>Budowanie sfery</h2>
-            <p>METSPHERE to nowe podejście do <br/> mieszkania. Budując <br/> zaawansowane technologicznie <br/> domy, jesteśmy świadomi ich <br/> współistnienia z nabliższym <br/> otoczeniem. Jesteśmy <br/> odpowiedzialni wobec środowiska. </p>
+            <p>W METSPHERE nie tylko budujemy<br/> nowoczesne osiedla, ale<br/>  przede wszystkim <br/> społeczność, której członkowie <br/> są świadomi istoty <br/> zrównoważonego rozwoju <br/> i odpowiedzialności ekologicznej.</p>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const MethouseSection = () => (
     <div className="content-ctn">
       <div className="methouse-ctn">
         <div className="methouse-text-ctn">
-          <h2>METHouse</h2>
+          <h2>METhouse</h2>
           <p>Wielofunkcyjność. <br/> Ekologia. <br/> Technologia. <br/> Wszystko, czego potrzebujesz.</p>
           <Link to="/methouse">
             Dowiedz się więcej

@@ -3,14 +3,14 @@ import '../style/new-life-style.scss'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const NewLifeSection = () => (
-  <section className="section-ctn new-life-ctn">
+  <section className="section-ctn new-life-ctn" id="newLifeSection">
     <div className="content-ctn">
       <div className="new-life-text-ctn">
         <div>
           <h2>Lepsze mieszkanie to lepszy świat</h2>
         </div>
         <div>
-          <p>Sprzeciwiamy się betonozie. METHouse to ekologiczne, inteligentne domy, dzięki którym możesz korzystać z osiągnięć najnowszych technologii nie pozostając obojętnym wobec środowiska. Dołącz do METSPHERE i buduj z nami lepszy świat. Stwórz z nami społeczność, która zapoczątkuje styl odpowiedzialnego i nowoczesnego mieszkania. Poznaj nasze wartości.</p>
+          <p>Sprzeciwiamy się betonozie. METHouse to ekologiczne, inteligentne domy, dzięki którym możesz korzystać z osiągnięć najnowszych technologii, nie pozostając obojętnym wobec środowiska. Dołącz do METSPHERE i buduj z nami lepszy świat. Stwórz z nami społeczność, która zapoczątkuje styl odpowiedzialnego i nowoczesnego mieszkania. Poznaj nasze wartości.</p>
         </div>
       </div>
     </div>
