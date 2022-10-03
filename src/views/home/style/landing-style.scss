@@ -35,6 +35,12 @@
       }
     }
 
+    @media (max-width: 320px) {
+      .scroll-down-ctn {
+        margin-top: 1rem;
+      }
+    }
+
     svg {
       margin-top: 0.4rem;
       color: $grey_dark

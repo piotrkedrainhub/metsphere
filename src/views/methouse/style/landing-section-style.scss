@@ -93,4 +93,16 @@
       height: 50vh;
     }
   }
+
+  @media (max-width: 320px) {
+    .scroll-down-ctn {
+      margin-top: 1rem;
+    }
+
+    .methouse-text-ctn {
+      h3 {
+        font-size: 14px;
+      }
+    }
+  }
 }

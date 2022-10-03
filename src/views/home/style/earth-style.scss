@@ -366,6 +366,50 @@
       bottom: 0 !important;
     }
   }
+
+  @media (max-width: 320px) {
+    .earth-ctn .earth-inner-text-ctn {
+      padding: 30px 16px;
+
+      h5 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 150%;
+      }
+    }
+
+    .earth-text-ctn1 {
+      bottom: 15vh;
+    }
+
+    .earth-text-ctn2 {
+      left: 5vw;
+    }
+
+    .earth-pointer-2 {
+      left: 30px !important;
+    }
+
+    .earth-text-ctn3 {
+      bottom: 5vh;
+    }
+
+    .earth-pointer-mobile-3 {
+      left: -50px !important;
+    }
+
+    .earth-pointer-mobile-4 {
+      right: -75px !important;
+      bottom: 125px !important;
+    }
+
+    .earth-pointer-mobile-5 {
+      right: -75px !important;
+    }
+  }
 }
 
 
