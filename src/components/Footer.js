@@ -11,9 +11,9 @@ const Footer = () => (
       <p>2022 METSPHERE All rights reserved. Created by <a target="_blank" href="https://www.innovationshub.pl/">InHub</a>.</p>
     </div>
     <div style={{display: 'flex'}}>
-      <a target="_blank" href="https://www.linkedin.com/"><BsLinkedin size={20}/></a>
-      <a target="_blank" href="https://www.twitter.com/"><BsTwitter size={20}/></a>
-      <a target="_blank" href="https://www.facebook.com/"><BsFacebook size={20}/></a>
+      <a target="_blank" rel="nofollow" href="https://www.linkedin.com/"><BsLinkedin size={20}/></a>
+      <a target="_blank" rel="nofollow" href="https://www.twitter.com/"><BsTwitter size={20}/></a>
+      <a target="_blank" rel="nofollow" href="https://www.facebook.com/"><BsFacebook size={20}/></a>
     </div>
   </div>
 )

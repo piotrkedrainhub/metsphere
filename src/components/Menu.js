@@ -17,7 +17,7 @@ const Menu = () => (
     </Link>
     <div className="menu-link-ctn">
       <Link to="/methouse">METhouse</Link>
-      <a target="_blank" href="https://www.otodom.pl/">Oferta</a>
+      <a target="_blank" rel="nofollow" href="https://www.otodom.pl/">Oferta</a>
       <button onClick={() => scrollTo('#contact')}>Kontakt</button>
     </div>
   </div>
