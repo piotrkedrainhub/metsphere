@@ -47,7 +47,7 @@
       opacity: 0.8;
     }
 
-    button {
+    button, a {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -55,9 +55,10 @@
       gap: 12px;
       border: none;
       background-color: transparent;
+      text-decoration: none;
     }
 
-    button:hover {
+    button:hover, a:hover {
       cursor: pointer;
       opacity: 0.8;
     }

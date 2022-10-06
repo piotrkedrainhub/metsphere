@@ -25,9 +25,9 @@ const RdyForChangesSection = () => (
     <div className="content-ctn rdy-for-changes-ctn">
       <h4>KONTAKT</h4>
       <h2>Odkryj nowe możliwości <br/> życia smart.</h2>
-      <p>ul. Migdałowa 34/4, Kraków</p>
-      <a href="tel:+48 888 398 388">+48 888 398 388</a>
-      <a href="mailto:kontakt@metsphere.com">kontakt@metsphere.com</a>
+      <p>ul. Suche Łąki 24, 31-235 Kraków</p>
+      <a href="tel:+48 600 303 193">+48 600 303 193</a>
+      <a href="mailto:patryk.rzasa@metsphere.pl">patryk.rzasa@metsphere.pl</a>
     </div>
   </section>
 )

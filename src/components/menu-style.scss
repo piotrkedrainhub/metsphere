@@ -58,6 +58,12 @@
   }
 }
 
+@media (max-width: 320px) {
+  .menu-ctn {
+    top: 1rem;
+  }
+}
+
 .sticky-menu-ctn {
   position: fixed;
   background-color: $grey_light;
