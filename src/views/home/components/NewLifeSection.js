@@ -10,7 +10,7 @@ const NewLifeSection = () => (
           <h2>Lepsze mieszkanie to lepszy świat</h2>
         </div>
         <div>
-          <p>Sprzeciwiamy się betonozie. METHouse to ekologiczne, inteligentne domy, dzięki którym możesz korzystać z osiągnięć najnowszych technologii, nie pozostając obojętnym wobec środowiska. Dołącz do METSPHERE i buduj z nami lepszy świat. Stwórz z nami społeczność, która zapoczątkuje styl odpowiedzialnego i nowoczesnego mieszkania. Poznaj nasze wartości.</p>
+          <p>Sprzeciwiamy się betonozie. METhouse to ekologiczne, inteligentne domy, dzięki którym możesz korzystać z osiągnięć najnowszych technologii, nie pozostając obojętnym wobec środowiska. Dołącz do METSPHERE i buduj z nami lepszy świat. Stwórz z nami społeczność, która zapoczątkuje styl odpowiedzialnego i nowoczesnego mieszkania. Poznaj nasze wartości.</p>
         </div>
       </div>
     </div>

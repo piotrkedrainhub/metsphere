@@ -24,7 +24,7 @@ const MultifunctionalSection = () => (
 
 const FACILITIES = [
   {
-    distance: "7 km",
+    distance: "5 km",
     title: "Szkoła podstawowa",
     description: "Szkoła blisko domu to bezpieczeństwo dzieci oraz wygoda dla rodziców, dlatego nasze osiedla powstają niedaleko szkoły podstawowej.",
     cords: {
@@ -55,7 +55,7 @@ const FACILITIES = [
     )
   },
   {
-    distance: "7 km",
+    distance: "4 km",
     title: "Międzynarodowy Port Lotniczy Balice",
     description: "Powstające osiedle na Woli Justowskiej w Krakowie znajduje się w bliskim sąsiedztwie lotniska, ułatwiając planowanie międzynarodowych podróży.",
     cords: {
@@ -86,7 +86,7 @@ const FACILITIES = [
     )
   },
   {
-    distance: "7 km",
+    distance: "3 km",
     title: "Zalew Kryspinów",
     description: "Wypoczynek jest ważny. Powstająca w Krakowie inwestycja METSPHERE to osiedle blisko wody, umożliwiające częsty relaks nad Zalewem Kryspinów.",
     cords: {
@@ -117,7 +117,7 @@ const FACILITIES = [
     )
   },
   {
-    distance: "7 km",
+    distance: "8 km",
     title: "Rynek starego Miasta",
     description: "Bliskość Starego Miasta to wygodne i bezpieczne powroty do domu. METhouse zapewnia Ci dostęp do miasta przy zachowaniu przedmiejskiej ciszy i spokoju.",
     cords: {

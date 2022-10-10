@@ -99,7 +99,7 @@ const SLIDES = [
     isFirst: false,
     tag: '#1 smart ready',
     title: 'Smart dom',
-    text: 'METHOuse jest domem gotowym na przyszłość. Solidne, naturalne materiały sprawią, że będzie służył przez lata. Zielona energia zapewnia oszczędności i jest przyjazna środowisku. Najnowsze technologie w zakresie zdalnego zarządzania domem zwiększają komfort mieszkania.',
+    text: 'METhouse jest domem gotowym na przyszłość. Solidne, naturalne materiały sprawią, że będzie służył przez lata. Zielona energia zapewnia oszczędności i jest przyjazna środowisku. Najnowsze technologie w zakresie zdalnego zarządzania domem zwiększają komfort mieszkania.',
     bgColor: GREY,
     img: (
       <StaticImage
