@@ -84,6 +84,13 @@
     }
   }
 
+  @media (max-width: 440px) {
+    .scroll-down-ctn {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+
   @media(max-width: 376px) {
     .methouse-img-ctn {
       height: 50vh;
@@ -103,13 +110,6 @@
       h3 {
         font-size: 14px;
       }
-    }
-  }
-
-  @media (max-height: 680px) and (max-width: 380px) {
-    .scroll-down-ctn {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
     }
   }
 }
