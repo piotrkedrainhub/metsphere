@@ -105,4 +105,12 @@
       }
     }
   }
+
+  @media (max-height: 680px) and (max-width: 380px) {
+    .scroll-down-ctn {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
 }
+
